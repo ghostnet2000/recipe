@@ -1,0 +1,29 @@
+#pic {
+	height: auto; 
+	width: auto; 
+	max-width: 100px; 
+	max-height: 100px; 
+}
+
+#pic1 {
+	height: auto; 
+	width: auto; 
+	max-width: 200px; 
+	max-height: 200px; 
+}
+
+a.list-group-item {
+    height: 125px;
+    min-height:125px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+.starrr {
+  display: inline-block; }
+  .starrr a {
+    font-size: 16px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #FFD119;
+text-decoration: none; }

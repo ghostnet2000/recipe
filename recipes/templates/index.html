@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% load static %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+		<div class="well">
+        <h1 class="text-center"> Recipes </h1>
+        <div class="list-group">
+         {% for recipe in all_recipes %}
+          <a href="{% url 'detail' recipe.id %}" class="list-group-item">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        {% if recipe.image %}
+                            <img  src="{{ recipe.image }}"  id="pic" class="media-object img-rounded img-responsive" >
+                        {% else %}
+                            <h3> {{  recipe.image }} </h3>
+                        {% endif %}
+                    </figure>
+                </div>
+                <div class="col-md-3 offset8">
+                    <h4 class="list-group-item-heading"> {{ recipe.title }} </h4>
+                    <p class="list-group-item-text"> servings  {{ recipe.servings }} </p>
+                    <div id="stars-existing" class="starrr" data-rating="5"></div>
+                    <form action="{% url 'delete_recipe' recipe.id %}" method="post" style="display: inline;">
+                        {% csrf_token %}
+                        <input type="hidden" name="song_id" value="{{ song.id }}" />
+                        <button type="submit" class="btn btn-danger btn-xs">
+                            <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete
+                        </button>
+                    </form>
+                </div>
+          </a>
+          {% endfor %}
+        </div>
+        </div>
+	</div>
+</div>
+
+{% endblock %}

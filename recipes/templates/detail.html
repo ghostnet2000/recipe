@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
+
+{% load static %}
+
+{% block body %}
+
+<div class="container-fluid" >
+    <div class="col-sm-12 col-md-7 col-md-offset-2" >
+        <div class="panel panel-default">
+
+            <div class="row">
+                <div class="media col-md-3">
+                    <figure class="pull-left">
+                        {% if recipe.image %}
+                            <img  src="\..\{{ recipe.image }}"  id="pic1" class="media-object img-rounded img-responsive" >
+                        {% else %}
+                            <img  src="{{ recipe.image }}"  id="pic1" class="media-object img-rounded img-responsive" >
+                        {% endif %}
+                    </figure>
+                </div>
+                <div class="col-md-3 offset8">
+                    <h5 class="list-group-item-heading"> {{ recipe.title }} </h5>
+                    <p class="list-group-item-text"> servings  {{ recipe.servings }} </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6" style="min-height: 500px">
+                        <h5 className="subhead">Ingredients</h5>
+                        <ul className="ingredients-list">
+                            {{recipe.ingredients}} 
+                        </ul>
+                </div>
+                <div class="-xs-6  col-md-offset-1">
+                    <h5 className="subhead">Instructions</h5>
+                    <p>
+                        <span>{{recipe.instructions}} </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('.star').starrr({
+          rating: 4
+        })
+    </script>
+</div>
+{% endblock %}
