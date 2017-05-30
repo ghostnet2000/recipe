@@ -21,3 +21,10 @@ class Recipe(models.Model):
     def __str__(self):
         return self.title
 
+class Ingredient(models.Model):
+    name = models.CharField(max_length=255)
+    recipe = models.ForeignKey(Recipe, null=True, blank=True, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
+
