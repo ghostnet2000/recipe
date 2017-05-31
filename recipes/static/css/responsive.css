@@ -1,0 +1,2060 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .top-left ul li {
+        margin: 0 30px 0 0;
+    }
+    .menu ul li {
+        margin-right: 30px;
+    }
+    .sidebar-area {
+        width: auto;
+    }
+    .post-img-content h5 span {
+        padding: 0 35px;
+    }
+    .classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+    }
+    .footer-bottom-area .copyright,
+    .footer-bottom-area .copyright a {
+        font-size: 11px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2 {
+        font-size: 28px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header {
+        margin: 20px 0;
+    }
+    .banner-col3-full .post-entry {
+        margin: 20px 0 0;
+    }
+    .banner-col3-full .post-entry p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .banner-col3-full .cpost-v2-right p.continue {
+        margin: 50px 0 0;
+    }
+    .banner-col3-full .continue a {
+        font-size: 18px;
+        padding: 10px 35px 10px 10px;
+    }
+    .banner-col3-full .cpost-v2-right .post-meta {
+        margin-top: 50px;
+    }
+    .banner-col3-full .post-meta a,
+    .banner-col3-full .post-meta span {
+        font-size: 18px;
+    }
+    .banner-col3-full .classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .banner-col3-full .post-img-content h5 {
+        font-size: 22px;
+    }
+    .banner-col3-full .post-img-content h5::after {
+        left: 55%;
+    }
+    .banner-col3-full .post-header {
+        margin: 20px 0;
+    }
+    .banner-col3-full .post-header h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .banner-col3-full .post-img-content h5::after {
+        left: 42%;
+    }
+    .banner-col3-full .classic-post-item .post-img-content h5::after {
+        left: 55%;
+    }
+    .single-col2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .single-col2 .post-img-content h5 span {
+        padding: 0 18px;
+    }
+    .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .cpost-v2-right .post-meta {
+        margin-top: 20px;
+    }
+    .banner-post .post-header h2 {
+        font-size: 22px;
+    }
+    .banner-post .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .list-post-full .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .list-post-full .post-header {
+        margin: 20px 0;
+    }
+    .list-post-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .list-post-full .continue a {
+        font-size: 18px;
+        padding: 9px 35px 9px 9px;
+    }
+    .list-post-full .post-meta a,
+    .list-post-full .post-meta span {
+        font-size: 16px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2 {
+        font-size: 28px;
+    }
+    .home-grid2-full .single-col2 .post-img-content h5 {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .home-grid2-full .col2-content h4,
+    .home-grid2-full .col2-content a {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 15px;
+    }
+    .home-grid2-full .col2-content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .col3-home .single-col3 .post-img-content h5 span {
+        padding: 0 5px;
+    }
+    .col3-home .single-col3 .post-img-content h5::after {
+        left: 37%;
+    }
+    .col3-home .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .col3-home .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 {
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .classic-full .post-img-content h5 {
+        font-size: 20px;
+    }
+    .classic-full .post-header h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .classic-full .post-header {
+        margin: 25px 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .classic-full .continue a {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 3px 25px 3px 9px;
+    }
+    .classic-full .cpost-v2-right .post-header h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .classic-full .classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 28px;
+    }
+    .list-layout-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .list-layout-full .cpv2-full .continue a {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px 30px 9px 10px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .col3-home-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .timer-right a {
+        float: left;
+        margin: 14px 0 0 5px;
+        padding: 0 10px 0 35px;
+    }
+    .prev-img h5 a {
+        font-size: 9px;
+    }
+    .standard-post .single-col3 .post-img-content h5 span {
+        padding: 0 7px;
+    }
+    .standard-post .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .standard-post .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    .gallery-post .single-col3 .post-img-content h5 span {
+        padding: 0 5px;
+    }
+    .gallery-post .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .gallery-post .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .music-post .single-col3 .post-img-content h5 span {
+        padding: 0 8px;
+    }
+    .music-post .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .music-post .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .title-mug h2::before {
+        left: -5px;
+        position: inherit;
+    }
+    .page-feature .single-col3 .post-img-content h5 span {
+        padding: 0 8px;
+    }
+    .page-feature .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .page-feature .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .subscribe-text.newsletter-text h4::before {
+        left: 0;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    .col2-content h4,
+    .col2-content a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .recipe-index2 .recipe-row.recipe-row3 .post-img-content h5 {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    .recipe-index2 .recipe-row .post-img-content h5 {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    .recipe-index2 .recipe-row .post-img-content h5 span {
+        padding: 0 3px;
+    }
+    .recipe-index2 .recipe-row .post-img-content h5::after {
+        left: 37%;
+    }
+    .recipe-index2 .recipe-row.recipe-row2 .post-img-content h5::after {
+        left: 42%;
+    }
+    .recipe-index2 .recipe-row.recipe-row3 .post-img-content h5 {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .recipe-index2 .recipe-row.recipe-row3 .post-img-content h5::after {
+        left: 42%;
+    }
+    .recipe-index3 .recipe-row .post-img-content h5 span {
+        padding: 0 2px;
+    }
+    .recipe-index3 .recipe-row .post-img-content h5::after {
+        left: 38%;
+    }
+    .recipe-index3 .recipe-row.recipe-row2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .about .single-col3 .post-img-content h5 span {
+        padding: 0 5px;
+    }
+    .about .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .about .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .timer-area .cdown {
+        margin-right: 0;
+        width: 190px;
+    }
+    .cdown .time-count {
+        font-size: 40px;
+    }
+    .subscribe-form input.email {
+        width: 65%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .top-left ul li {
+        margin: 0 15px 0 0;
+    }
+    .header-middle {
+        padding: 30px 0;
+    }
+    .header-top {
+        padding: 15px 0;
+    }
+    .subscribe {
+        margin-top: 25px;
+    }
+    .search {
+        margin-top: 25px;
+    }
+    .search input {
+        border: 1px solid #eeeeee;
+        width: 150px;
+    }
+    .contents-box {
+        padding: 20px 0;
+    }
+    .contents p {
+        font-size: 14px;
+        line-height: 28px;
+        margin: 0 10px 4px;
+    }
+    .contents h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .contents a {
+        font-size: 14px;
+        line-height: 28px;
+        margin-top: 6px;
+        padding: 0 8px;
+    }
+    .sidebar-area {
+        margin: auto;
+        padding-top: 60px;
+        width: 400px;
+    }
+    .post-pagination-area {
+        margin: 50px 0 0;
+        text-align: right;
+    }
+    .footer-copyright {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-right-copy {
+        text-align: center;
+    }
+    .footer-right-copy .copyright {
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .banner-col3 .post-content-area {
+        padding: 0;
+    }
+    .banner-col3-full .cpost-v2-right .post-header {
+        margin: 0;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .banner-col3-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-col3-full .continue a {
+        font-size: 18px;
+        padding: 8px 30px 8px 8px;
+    }
+    .banner-col3-full .cpost-v2-right p.continue {
+        margin: 30px 0 0;
+    }
+    .banner-col3-full .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .banner-col3-full .post-meta a,
+    .banner-col3-full .post-meta span {
+        font-size: 18px;
+    }
+    .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .post-img-content h5 span {
+        padding: 0 35px;
+    }
+    .banner-col3-full .classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .banner-col3-full .post-img-content h5 {
+        font-size: 18px;
+    }
+    .banner-col3-full .classic-post-item .post-img-content h5::after {
+        left: 55%;
+    }
+    .banner-col3-full .post-header h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .banner-col3-full .post-header {
+        margin: 15px 0;
+    }
+    .banner-col3-full .post-meta a,
+    .banner-col3-full .post-meta span {
+        font-size: 14px;
+    }
+    .banner-post .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 13px;
+    }
+    .banner-post .post-img-content h5 span {
+        padding: 0 18px;
+    }
+    .banner-post .post-header h2 {
+        font-size: 22px;
+    }
+    .banner-post .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .single-col2 .post-img-content h5 span {
+        padding: 0 18px;
+    }
+    .single-col2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 28px;
+    }
+    .col2-content h4,
+    .col2-content a {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .banner-post .post-header {
+        margin: 15px 0;
+    }
+    .post-grid2-full .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 28px;
+    }
+    .post-img-content h5 {
+        padding: 8px 28px;
+    }
+    .post-header h2,
+    .post-header h2 a {
+        font-size: 24px;
+    }
+    .cpost-v2-right .post-header h2,
+    .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+    }
+    .classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .list-post-full .cpost-v2-right .post-header h2,
+    .list-post-full .cpost-v2-right .post-header h2 a {
+        font-size: 22px;
+    }
+    .home-grid2-full .col2-content h4,
+    .home-grid2-full .col2-content a {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+    .col3-home-full .single-col3 .col2-content p {
+        font-size: 14px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2,
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .home-grid2-full .col2-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .post-grid2-full .post-content-area .post-header h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .post-grid2-full .classic-post-item .post-header {
+        margin: 20px 0;
+    }
+    .post-grid2-full .post-entry p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .post-grid2-full p.continue {
+        margin: 30px 0 0;
+    }
+    .post-grid2-full .continue a {
+        font-size: 18px;
+        padding: 8px 30px 8px 9px;
+    }
+    .post-grid2-full .post-meta a,
+    .post-grid2-full .post-meta span {
+        font-size: 16px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2,
+    .banner-col3-full .cpost-v2-right .post-header h2 a {
+        font-size: 26px;
+    }
+    .post-grid2-full .post-content-area .post-header h2,
+    .post-grid2-full .post-content-area .post-header h2 a {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .cpost-v2-right .post-meta {
+        margin-top: 25px;
+    }
+    .list-post-full .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .list-post-full .post-header {
+        margin: 15px 0;
+    }
+    .list-post-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .list-post-full .continue a {
+        font-size: 18px;
+        padding: 9px 35px 9px 9px;
+    }
+    .list-post-full .post-meta a,
+    .list-post-full .post-meta span {
+        font-size: 16px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2 {
+        font-size: 24px;
+    }
+    .list-post-full .cpost-v2-right .post-header {
+        margin: 10px 0;
+    }
+    .list-post-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .list-post-full .cpost-v2-right .post-meta {
+        margin-top: 20px;
+    }
+    .home-grid2-full .single-col2 .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 6px 5px;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 span {
+        padding: 0 8px;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .col3-home-full .single-col3 .col2-content h4,
+    .col3-home-full .single-col3 .col2-content a {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 13px;
+    }
+    .col3-home-full .col2-content {
+        margin: 10px 0 0;
+    }
+    .col3-home-full .single-col3 .col2-content p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .classic-layout .classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+    .classic-layout .classic-post-v2 .post-img-content h5::after {
+        left: 45%;
+    }
+    .classic-layout .cpost-v2-right.text-right {
+        margin-bottom: 30px;
+    }
+    .classic-full .post-header h2,
+    .classic-full .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .classic-full .cpost-v2-right .post-header h2,
+    .classic-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-meta {
+        margin-top: 20px;
+    }
+    .col3-home-full .cpv2-full .post-meta a,
+    .col3-home-full .post-meta span {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .col3-home-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 4px 0;
+    }
+    .col3-home-full .cpv2-full .continue a {
+        font-size: 14px;
+        padding: 6px 28px 6px 6px;
+    }
+    .classic-full .post-img-content h5 {
+        font-size: 18px;
+    }
+    .classic-full .post-header h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .classic-full .post-header {
+        margin: 15px 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .classic-full .continue a {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 3px 30px 3px 9px;
+    }
+    .classic-full .post-meta a,
+    .classic-full .post-meta span {
+        font-size: 16px;
+    }
+    .classic-full .cpost-v2-right .post-header {
+        margin: 10px 0;
+    }
+    .classic-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .classic-full .cpost-v2-right p.continue {
+        margin: 40px 0 0;
+    }
+    .classic-full .classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+    }
+    .list-layout-full .classic-post-v2 .post-img-content h5::after {
+        left: 45%;
+    }
+    .list-layout-full .classic-post-v2 .cpost-v2-right {
+        margin-bottom: 20px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 20px 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .list-layout-full .cpv2-full .continue a {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 8px 30px 8px 10px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-meta {
+        margin-top: 20px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .list-layout-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2,
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .list-layout-full .cpv2-full .continue a {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 6px 28px 6px 8px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        font-size: 14px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        line-height: 25px;
+    }
+    .list-layout-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .timer-left ul li {
+        width: 30.33%;
+    }
+    .page-feature-full .single-col3 .col2-content h4,
+    .page-feature-full .single-col3 .col2-content h4 a {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .fullwidth-post .timer-right a {
+        float: left;
+        font-size: 18px;
+        margin: 30px 0 0 40px;
+        padding: 2px 17px 2px 32px;
+    }
+    .fullwidth-post .timer-right a::before {
+        top: 2px;
+        left: 6px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5::after {
+        left: 38%;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 span {
+        padding: 0 8px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 span {
+        padding: 0 5px;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 span:first-child {
+        padding-left: 0;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 span:last-child {
+        padding-right: 0;
+    }
+    .page-feature-full .timer-right a {
+        font-size: 18px;
+        margin: 11px 0 0 20px;
+        padding: 3px 13px 3px 30px;
+    }
+    .page-feature-full .timer-right a::before {
+        left: 5px;
+        top: 3px;
+    }
+    .recipe-index .recipe-row .post-img-content h5 {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .recipe-index .recipe-row-4 .cpost-v2-right .post-header h2 {
+        font-size: 24px;
+    }
+    .recipe-index2 .recipe-row .post-img-content h5 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .coming h1 {
+        font-size: 55px;
+    }
+    .coming-content p {
+        font-size: 18px;
+    }
+    .timer-area .cdown {
+        margin-right: 10px;
+        width: 120px;
+    }
+    .cdown .time-count {
+        font-size: 45px;
+    }
+    .cdown p {
+        font-size: 14px;
+    }
+    .coming .subscribe-box {
+        padding-top: 80px;
+    }
+    .subscribe-form input.email {
+        width: 65%;
+    }
+    .banner-post .post-header h2,
+    .banner-post .post-header h2 a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .header-top {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .top-left ul li {
+        margin: 0 15px 0 0;
+    }
+    .header-middle {
+        padding: 15px 0;
+    }
+    .search {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .search input {
+        border: 1px solid #eeeeee;
+        width: 275px !important;
+    }
+    .search a {
+        position: inherit;
+        right: 38px;
+    }
+    .banner-area {
+        padding: 15px 0 50px;
+    }
+    .cpost-v2-right.text-right {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .post-img-content h5 span {
+        padding: 0 30px;
+    }
+    .post-img-content h5::after {
+        left: 55%;
+    }
+    .post-header h2 {
+        font-size: 24px;
+    }
+    .classic-post-v2 .post-img-content h5 span {
+        padding: 0 80px;
+    }
+    .sidebar-area {
+        margin: auto;
+        padding-top: 80px;
+        width: 400px;
+    }
+    .post-pagination-area {
+        margin: 30px 0 0;
+        text-align: right;
+    }
+    .instagram-area ul li {
+        width: 25%;
+    }
+    .footer-copyright {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-right-copy {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-right-copy .copyright {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .footer-right-copy a.top-scroll {
+        margin: 0;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .banner-col3-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .banner-col3-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .continue a {
+        font-size: 14px;
+        padding: 8px 40px 8px 10px;
+    }
+    .banner-col3-full .post-meta a,
+    .banner-col3-full .post-meta span {
+        font-size: 14px;
+    }
+    .banner-col3-full .cpost-v2-right .post-meta {
+        margin-top: 15px;
+    }
+    .banner-col3-full .cpost-v2-right .post-share {
+        margin-left: 25px;
+    }
+    .banner-col3-full .post-img-content h5 {
+        font-size: 14px;
+    }
+    .banner-col3-full .post-header {
+        margin: 15px 0;
+    }
+    .banner-col3-full .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .banner-col3-full p.continue {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .post-meta {
+        margin-top: 15px;
+    }
+    .banner-col3-full .classic-post-item .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .banner-col3-full .post-content-area {
+        padding-bottom: 0;
+    }
+    .classic-post-v2 .post-img-content h5::after {
+        left: 35%;
+    }
+    .post-header {
+        margin: 15px 0;
+    }
+    .banner-post .post-header h2 {
+        font-size: 22px;
+    }
+    .banner-post .post-entry p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col2-content h4,
+    .col2-content a {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .banner-post-area {
+        padding: 15px 0;
+    }
+    .post-grid2-full .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 20px;
+    }
+    .post-grid2-full .post-content-area .post-img-content h5::after {
+        left: 58%;
+    }
+    .post-grid2-full .classic-post-item .post-header {
+        margin: 15px 0;
+    }
+    .post-grid2-full .post-content-area .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-grid2-full .post-entry p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .post-grid2-full p.continue {
+        margin: 15px 0 0;
+    }
+    .post-grid2-full .continue a {
+        font-size: 16px;
+        padding: 8px 30px 8px 8px;
+    }
+    .post-grid2-full .post-meta a,
+    .post-grid2-full .post-meta span {
+        font-size: 14px;
+    }
+    .post-grid2-full .post-meta {
+        margin-top: 15px;
+    }
+    .classic-post-item .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .post-grid2-full .post-content-area {
+        padding-bottom: 0;
+    }
+    .list-post .classic-post-item .post-share {
+        display: inline;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+    }
+    .list-post-full .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .list-post-full .continue a {
+        font-size: 18px;
+        padding: 8px 30px 8px 8px;
+    }
+    .list-post-full .post-meta a,
+    .list-post-full .post-meta span {
+        font-size: 18px;
+    }
+    .list-post-full .classic-post-item .post-share {
+        display: inline;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+    }
+    .list-post-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .list-post-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .list-post-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .list-post-full .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .home-grid2-full .col2-content h4,
+    .home-grid2-full .col2-content a {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0 0 15px;
+    }
+    .home-grid2-full .col2-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .home-grid2-full .single-col2 .post-img-content h5 {
+        font-size: 22px;
+        padding: 8px 0;
+    }
+    .col3-home .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .col3-home-full .classic-post-v2 .cpost-v2-right {
+        margin-bottom: 15px;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    .col3-home-full .single-col3 .col2-content h4,
+    .col3-home-full .single-col3 .col2-content a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .single-col3 .col2-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    .col3-home-full .classic-post-v2 .post-img-content h5::after {
+        left: 37%;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .col3-home-full .cpv2-full .continue a {
+        font-size: 16px;
+        padding: 8px 30px 8px 8px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .col3-home-full .cpv2-full .post-meta a,
+    .col3-home-full .post-meta span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+    }
+    .col3-home-full .classic-post-v2 .post-img-content h5 span:first-child {
+        float: left;
+        padding-left: 38px;
+    }
+    .col3-home-full .post-content-area {
+        padding: 30px 0;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 span:first-child {
+        float: left;
+        padding-left: 60px;
+    }
+    .col3-home-full .classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .classic-full .post-img-content h5 {
+        font-size: 14px;
+    }
+    .classic-full .post-header h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .classic-full .post-header {
+        margin: 15px 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .classic-full .continue a {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 3px 19px 1px 5px;
+    }
+    .classic-full .post-meta a,
+    .classic-full .post-meta span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .classic-full .classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+    }
+    .classic-full .cpost-v2-right .post-header {
+        margin: 10px 0;
+    }
+    .classic-full .cpost-v2-right .post-header h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .classic-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .classic-full .cpost-v2-right .post-meta {
+        margin-top: 15px;
+    }
+    .classic-full .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .classic-full .post-content-area {
+        padding-bottom: 30px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 20px 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-meta {
+        margin-top: 20px;
+    }
+    .list-layout-full .cpv2-full .continue a {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 9px 30px 9px 9px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .list-layout-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 0;
+    }
+    .timer-right a {
+        margin: 14px 0 0 10px;
+        float: left;
+    }
+    .prev-post.next-post > h4 {
+        text-align: left;
+    }
+    .standard-post .single-col3 .post-img-content h5::after {
+        left: 46%;
+    }
+    .standard-post .post-content-area {
+        padding: 30px 00;
+    }
+    .gallery-post .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .video-post .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .music-post .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .page-feature .also-like-area .latest-recipe {
+        font-size: 16px;
+    }
+    .page-feature .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .page-feature-full .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .recipe-row .post-img-content h5::after {
+        left: 45%;
+    }
+    .recipe-index3 .recipe-row .post-img-content h5 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .recipe-index3 .col2-content h4,
+    .col2-content a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .recipe-index3 .recipe-row.recipe-row2 .post-img-content h5 {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .col2-content h4,
+    .col2-content a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .recipe-index3 .recipe-row.recipe-row3 .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+    .about .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .input-row input {
+        width: 60%;
+    }
+    .coming h1 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .coming-content p {
+        font-size: 16px;
+    }
+    .timer-area .cdown {
+        margin-bottom: 60px;
+        margin-right: 0;
+        width: 204px;
+    }
+    .timer-area {
+        padding: 52px 0 0;
+    }
+    .cdown .time-count {
+        font-size: 50px;
+    }
+    .another-comment {
+        margin-top: 60px;
+    }
+    .cpost-v2-right .post-header h2,
+    .cpost-v2-right .post-header h2 a {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .continue a {
+        font-size: 14px;
+        padding: 7px 33px 7px 7px;
+    }
+    .post-header h2,
+    .post-header h2 a {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .banner-post .post-header h2,
+    .banner-post .post-header h2 a {
+        font-size: 20px;
+    }
+    .post-img-content h5 {
+        padding: 5px 20px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2,
+    .banner-col3-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+    }
+    .post-grid2-full .post-content-area .post-header h2,
+    .post-grid2-full .post-content-area .post-header h2 a {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2,
+    .list-post-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2,
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .classic-full .post-header h2,
+    .classic-full .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .classic-full .cpost-v2-right .post-header h2,
+    .classic-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2,
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .page-feature-full .single-col3 .col2-content h4,
+    .page-feature-full .single-col3 .col2-content h4 a {
+        font-size: 22px;
+    }
+    .recipe-index .single-col3 {
+        margin-bottom: 20px;
+    }
+    .recipe-index2 .single-col3 {
+        margin-bottom: 20px;
+    }
+    .recipe-index3 .single-col3 {
+        margin-bottom: 20px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 {
+        font-size: 22px;
+        padding: 8px;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 {
+        font-size: 18px;
+        padding: 5px 5px;
+    }
+    .recipe-index .post-img {
+        margin-top: 20px;
+    }
+    .recipe-row .post-img-content h5 {
+        padding: 8px 10px;
+    }
+    .recipe-index2 .post-img {
+        margin-top: 20px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    .header-top {
+        padding: 15px 0;
+    }
+    .top-left ul {
+        text-align: center;
+    }
+    .top-left ul li {
+        margin: 0 5px 0 0;
+    }
+    .header-middle {
+        padding: 15px 0;
+    }
+    .search {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .search input {
+        border: 1px solid #eeeeee;
+        width: 85% !important;
+    }
+    .search a {
+        right: 40px;
+    }
+    .banner-area {
+        padding: 30px 0;
+    }
+    .classic-post-v2 .post-img-content h5 {
+        font-size: 14px;
+    }
+    .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+    }
+    .cpost-v2-right p.continue {
+        margin: 30px 0 0;
+    }
+    .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .cpost-v2-right .post-share {
+        margin-left: 5px;
+    }
+    .cpost-v2-right.text-right {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .mar-bot-50 {
+        margin-bottom: 30px !important;
+    }
+    .post-img-content {
+        bottom: 0;
+    }
+    .post-img-content h5 {
+        display: block;
+        font-size: 14px;
+        padding: 14px 0;
+    }
+    .post-img-content h5::after {
+        left: 58%;
+    }
+    .post-img-content h5 span {
+        padding: 0 5px;
+    }
+    .classic-post-v2 .post-img-content h5 span {
+        padding: 0 15px;
+    }
+    .post-header {
+        margin: 15px 0;
+    }
+    .post-header h2 {
+        font-size: 18px;
+    }
+    .classic-post-item .post-share {
+        display: block;
+        margin-left: 0;
+    }
+    .post-pagination-area {
+        margin: 30px 0;
+        text-align: right;
+    }
+    .widget-item.newsletter-widget {
+        margin-bottom: 0;
+        padding: 25px 15px;
+    }
+    .subscribe-text.newsletter-text h4::before {
+        left: -10px;
+        position: inherit;
+    }
+    .instagram-area ul li {
+        width: 25%;
+    }
+    .banner-col3 .post-content-area {
+        padding: 0 0 30px;
+    }
+    .footer-bottom-area {
+        padding: 15px 10px;
+        text-align: center;
+    }
+    .footer-copyright {
+        margin-bottom: 15px;
+    }
+    .footer-social {
+        margin-bottom: 15px;
+    }
+    .footer-right-copy {
+        text-align: center;
+    }
+    .footer-bottom-area .footer-right-copy .copyright {
+        display: block;
+        margin: 0 0 20px;
+    }
+    .footer-right-copy a.top-scroll {
+        padding: 0 4px;
+    }
+    .top-endi {
+        top: -17px;
+    }
+    .banner-col3-full .classic-post-v2 .post-img-content h5 {
+        font-size: 14px;
+    }
+    .classic-post-v2 .post-img-content h5::after {
+        left: 40%;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .banner-col3-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-col3-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .banner-col3-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .continue a {
+        font-size: 14px;
+        padding: 8px 40px 8px 10px;
+    }
+    .banner-col3-full .post-meta a,
+    .banner-col3-full .post-meta span {
+        font-size: 14px;
+    }
+    .banner-col3-full .cpost-v2-right .post-meta {
+        margin-top: 15px;
+    }
+    .banner-col3-full .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .banner-col3-full .post-img-content h5 {
+        font-size: 14px;
+    }
+    .banner-col3-full .post-header {
+        margin: 15px 0;
+    }
+    .banner-col3-full .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .banner-col3-full p.continue {
+        margin: 15px 0 0;
+    }
+    .banner-col3-full .post-meta {
+        margin-top: 15px;
+    }
+    .banner-col3-full .classic-post-item .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .banner-col3-full .post-content-area {
+        padding-bottom: 0;
+    }
+    .banner-post-area {
+        padding: 30px 0;
+    }
+    .banner-post .post-img-content h5 {
+        font-size: 16px;
+    }
+    .banner-post .post-img-content h5 span {
+        padding: 0 10px;
+    }
+    .banner-post .post-img-content h5::after {
+        left: 42%;
+    }
+    .banner-post .post-header h2 {
+        font-size: 18px;
+    }
+    .banner-post .post-entry p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .grid-post-col2 {
+        margin-top: 30px;
+    }
+    .single-col2 .post-img-content h5 {
+        display: block;
+        font-size: 16px;
+    }
+    .single-col2 .post-img-content h5 span {
+        padding: 0 18px;
+    }
+    .col2-content h4,
+    .col2-content a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .post-grid2-full .post-img-content h5 {
+        font-size: 14px;
+    }
+    .post-grid2-full .post-content-area .post-img-content h5::after {
+        left: 58%;
+    }
+    .post-grid2-full .classic-post-item .post-header {
+        margin: 15px 0;
+    }
+    .post-grid2-full .post-content-area .post-header h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .post-grid2-full .post-entry p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .post-grid2-full p.continue {
+        margin: 15px 0 0;
+    }
+    .post-grid2-full .continue a {
+        font-size: 16px;
+        padding: 8px 30px 8px 8px;
+    }
+    .post-grid2-full .post-meta a,
+    .post-grid2-full .post-meta span {
+        font-size: 14px;
+    }
+    .post-grid2-full .post-meta {
+        margin-top: 15px;
+    }
+    .classic-post-item .post-share {
+        display: block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .post-grid2-full .post-content-area {
+        padding-bottom: 0;
+    }
+    .list-post .classic-post-v2 .post-img-content h5::after {
+        left: 40%;
+    }
+    .list-post .classic-post-v2 .post-img-content h5 span {
+        padding: 0 25px;
+    }
+    .list-post-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .list-post-full .continue a {
+        font-size: 16px;
+        padding: 8px 30px 8px 8px;
+    }
+    .list-post-full .post-meta a,
+    .list-post-full .post-meta span {
+        font-size: 16px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2 {
+        font-size: 22px;
+    }
+    .list-post-full .cpost-v2-right p.continue {
+        margin: 25px 0 0;
+    }
+    .list-post-full .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .list-post-full .post-meta a,
+    .list-post-full .post-meta span {
+        font-size: 14px;
+    }
+    .list-post-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .list-post-full .post-entry {
+        margin: 15px 0 0;
+    }
+    .list-post-full .post-content-area {
+        padding-bottom: 0;
+    }
+    .home-grid2-full .single-col2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 5px;
+    }
+    .home-grid2-full .col2-content h4,
+    .home-grid2-full .col2-content a {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 15px;
+    }
+    .home-grid2-full .col2-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .home-grid2-full .post-content-area {
+        padding: 0;
+    }
+    .col3-home-full .classic-post-v2 .cpost-v2-right {
+        margin-bottom: 15px;
+    }
+    .col3-home-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    .col3-home-full .single-col3 .col2-content h4,
+    .col3-home-full .single-col3 .col2-content a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .single-col3 .col2-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    .col3-home-full .classic-post-v2 .post-img-content h5::after {
+        left: 37%;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .col3-home-full .cpv2-full .continue a {
+        font-size: 16px;
+        padding: 8px 30px 8px 8px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-meta {
+        margin-top: 30px;
+    }
+    .col3-home-full .cpv2-full .post-meta a,
+    .col3-home-full .post-meta span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .col3-home-full .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+    }
+    .col3-home-full .classic-post-v2 .post-img-content h5 span:first-child {
+        float: left;
+        padding-left: 10px;
+    }
+    .col3-home-full .post-content-area {
+        padding: 30px 0;
+    }
+    .classic-full .post-img-content h5 {
+        font-size: 14px;
+    }
+    .classic-full .post-header h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .classic-full .post-header {
+        margin: 15px 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .classic-full .continue a {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 3px 19px 1px 5px;
+    }
+    .classic-full .post-meta a,
+    .classic-full .post-meta span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .classic-full .classic-post-v2 .post-img-content h5 {
+        font-size: 16px;
+    }
+    .classic-full .cpost-v2-right .post-header {
+        margin: 10px 0;
+    }
+    .classic-full .cpost-v2-right .post-header h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .classic-full .cpost-v2-right p.continue {
+        margin: 15px 0 0;
+    }
+    .classic-full .cpost-v2-right .post-meta {
+        margin-top: 15px;
+    }
+    .classic-full .cpost-v2-right .post-share {
+        display: block;
+        margin-left: 0;
+    }
+    .classic-full .post-entry p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .classic-full .post-content-area {
+        padding-bottom: 30px;
+    }
+    .list-layout-full .cpv2-full.classic-post-v2 .post-img-content h5 {
+        font-size: 14px;
+        padding: 8px 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header {
+        margin: 15px 0;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right p.continue {
+        margin: 20px 0 0;
+    }
+    .list-layout-full .cpv2-full .continue a {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 8px 30px 8px 8px;
+    }
+    .list-layout-full .cpv2-full .post-meta a,
+    .list-layout-full .post-meta span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .list-layout-full .cpost-v2-right .post-share {
+        margin-left: 0;
+        display: block;
+    }
+    .list-layout-full .post-content-area {
+        padding: 30px 0 0;
+    }
+    .timer-left ul li {
+        border-bottom: 1px solid #d0d0d0;
+        border-right: medium none;
+        display: block;
+        width: 100%;
+    }
+    .prev-post.next-post > h4 {
+        text-align: left;
+    }
+    .post-about .post-about-top {
+        left: 5px;
+    }
+    .leave-reply input {
+        width: 100%;
+    }
+    .standard-post .post-article-area {
+        padding-bottom: 30px;
+    }
+    .timer-right a {
+        float: left;
+        margin: 14px 0 0px 10px;
+    }
+    .fullwidth-post .timer-right a {
+        float: left;
+        font-size: 16px;
+        margin: 10px 0 0 10px;
+        padding: 2px 18px 0px 25px;
+    }
+    .fullwidth-post .timer-right a::before {
+        left: 6px;
+        top: 2px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 8px 5px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5 {
+        font-size: 18px;
+        padding: 8px 5px;
+    }
+    .fullwidth-post .single-col3 .post-img-content h5::after {
+        left: 45%;
+    }
+    .timer-left h2 {
+        font-size: 16px;
+    }
+    .video-post .post-content-area {
+        padding: 30px 0;
+    }
+    .post-video > iframe {
+        height: auto;
+        width: 100%;
+    }
+    .post-article-area {
+        padding-bottom: 30px;
+    }
+    .post-entry-inside h2 {
+        font-size: 20px;
+    }
+    .unorder-list ul,
+    .order-list ol {
+        margin: 27px 0 0 20px;
+    }
+    .order-list ol {
+        margin-left: 0px;
+    }
+    .also-like-area .latest-recipe {
+        font-size: 16px;
+    }
+    .page-feature-full .single-col3 .post-img-content h5 {
+        font-size: 16px;
+        padding: 6px 5px;
+    }
+    .page-feature-full .timer-right a {
+        font-size: 18px;
+        margin: 10px 0 0 20px;
+        padding: 3px 20px 1px 23px;
+    }
+    .page-feature-full .timer-right a::before {
+        left: 5px;
+        top: 3px;
+    }
+    .recipe-header a {
+        display: block;
+        float: none;
+        padding-left: 0;
+    }
+    .recipe-row .post-img-content h5 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .recipe-index-area {
+        padding: 30px 0;
+    }
+    .recipe-index2 .recipe-row.recipe-row3 .post-img-content h5 {
+        font-size: 14px;
+    }
+    .recipe-index3 .recipe-row.recipe-row2 .post-img-content h5 {
+        font-size: 16px;
+    }
+    .recipe-index3 .recipe-row.recipe-row3 .post-img-content h5 {
+        font-size: 16px;
+    }
+    .cpost-v2-right .post-header h2 {
+        font-size: 18px;
+    }
+    .input-row input {
+        width: 100%;
+    }
+    textarea.contact-textarea {
+        width: 100%;
+    }
+    .coming h1 {
+        font-size: 45px;
+        line-height: 70px;
+    }
+    .coming-content p {
+        font-size: 16px;
+    }
+    .timer-area .cdown {
+        border-bottom: 1px solid #fbaf5d;
+        display: block;
+        margin-bottom: 40px;
+        margin-right: 0;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .timer-area {
+        border: medium none;
+    }
+    .coming-content {
+        padding: 40px 0;
+    }
+    .cdown .time-count {
+        font-size: 50px;
+    }
+    .subscribe-form input.email {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .subscribe-form input.submit {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .timer-left ul {
+        padding: 0;
+    }
+    .timer-left ul li {
+        padding: 5px 0;
+    }
+    .another-comment {
+        margin-top: 60px;
+    }
+    .cpost-v2-right .post-header h2,
+    .cpost-v2-right .post-header h2 a {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .continue a {
+        font-size: 14px;
+        padding: 7px 33px 7px 7px;
+    }
+    .post-header h2,
+    .post-header h2 a {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .banner-post .post-header h2,
+    .banner-post .post-header h2 a {
+        font-size: 20px;
+    }
+    .post-img-content h5 {
+        padding: 5px 0;
+    }
+    .banner-col3-full .cpost-v2-right .post-header h2,
+    .banner-col3-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+    }
+    .post-grid2-full .post-content-area .post-header h2,
+    .post-grid2-full .post-content-area .post-header h2 a {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .list-post-full .cpost-v2-right .post-header h2,
+    .list-post-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+    }
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2,
+    .col3-home-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .classic-full .post-header h2,
+    .classic-full .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .classic-full .cpost-v2-right .post-header h2,
+    .classic-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2,
+    .list-layout-full .cpv2-full .cpost-v2-right .post-header h2 a {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .page-feature-full .single-col3 .col2-content h4,
+    .page-feature-full .single-col3 .col2-content h4 a {
+        font-size: 22px;
+    }
+    .recipe-index .single-col3 {
+        margin-bottom: 20px;
+    }
+    .recipe-index2 .single-col3 {
+        margin-bottom: 20px;
+    }
+    .recipe-index3 .single-col3 {
+        margin-bottom: 20px;
+    }
+}
