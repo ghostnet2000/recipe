@@ -5,7 +5,105 @@
 
 {% block body %}
 
+
+
+
 <div class="container-fluid" >
+    <div class="col-sm-12 col-md-7 col-md-offset-2" id="details">
+        <div class="panel panel-default">
+
+            <div class="post-timer">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                        <div class="timer-left">
+                            <h2>SIMPLE CHOCOLATE CAKE WITH CHICKPEA FLOUR</h2>
+                            <ul class="clearfix">
+                                <li>
+                                    <span>PREP TIME</span>
+                                    <span class="clc-icon"> {{ recipe.prep_time }} </span>
+                                </li>
+                                <li>
+                                    <span>COOK TIME</span>
+                                    <span class="clc-icon"> {{ recipe.cooking_time }} </span>
+                                </li>
+                                <li>
+                                    <span>TOTAL TIME</span>
+                                    <span class="clc-icon" id="total_time"> ??:??:?? </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="post-others">
+                            <p>An everyday Chocolate cake with a boost of chickepa protein and easy mocha icon icoing.
+                            </p>
+                            <span>Serves: {{ recipe.servings }} </span>
+                        </div>
+                        <div class="timer-desc">
+                            <h3>INGREDIENTS</h3>
+                            <ul>
+                                <li>1/2 cup chickepea flour</li>
+                                <li>1 1/2 cups quick-cooking oatmeal</li>
+                                <li>1/2 teaspoon kosher salt</li>
+                                <li>1/2 cup blueberries</li>
+                                <li>1 banana, sliced</li>
+                                <li>1/2 cup dried cherries</li>
+                                <li>1/2 cup golden raisins</li>
+                                <li>2 large eggs</li>
+                                <li>2 teanspoons vanilla</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="timer-right">
+                            <img src="\..\{{ recipe.image }}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="timer-instruction">
+                            <h3>INSTRUCTIONS</h3>
+                            <ul>
+                                <li>0. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica.</li>
+                                <li>1. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica.</li>
+                                <li>2. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave.</li>
+                                <li>3. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies.3</li>
+                                <li>4. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies.</li>
+                                <li>5 Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // Add two time string
+        function addtime( time1, time2 ){
+            time1 = time1.split(":");
+            time2 = time2.split(":");
+            var hh1 = parseInt(time1[0]) + parseInt(time2[0]);
+            var mm1 = parseInt(time1[1]) + parseInt(time2[1]);
+            var ss1 = parseInt(time1[2]) + parseInt(time2[2]);
+
+            if (ss1 > 59) {
+                var ss2 = ss1 % 60;
+                var ssx = ss1 / 60;
+                var ss3 = parseInt(ssx);//add into min
+                var mm1 = parseInt(mm1) + parseInt(ss3);
+                var ss1 = ss2;
+            }
+            if (mm1 > 59) {
+                var mm2 = mm1 % 60;
+                var mmx = mm1 / 60;
+                var mm3 = parseInt(mmx);//add into hour
+                var hh1 = parseInt(hh1) + parseInt(mm3);
+                var mm1 = mm2;
+            }
+            return hh1 + ':' + mm1 + ':' + ss1;
+        }
+        $('#total_time').text( addtime( "{{ recipe.prep_time }}", "{{ recipe.cooking_time }}"));
+    </script>
+
+    <!--
     <div class="col-sm-12 col-md-7 col-md-offset-2" >
         <div class="panel panel-default">
 
@@ -46,5 +144,6 @@
           rating: 4
         })
     </script>
+    -->
 </div>
 {% endblock %}
